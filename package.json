@@ -4,12 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build:before": "ng cache clean",
-    "build": "ng build --verbose",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:angular-web-shell": "node dist/angular-web-shell/server/server.mjs",
-    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
+    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js",
+    "config": "node scripts/process-env/process-env.js"
   },
   "prettier": {
     "printWidth": 100,
