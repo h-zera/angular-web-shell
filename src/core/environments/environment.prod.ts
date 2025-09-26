@@ -1,5 +1,4 @@
 import {Environment} from '@environments/environment.interface';
-import * as process from 'node:process';
 
 export const environment = {
   production: true,
