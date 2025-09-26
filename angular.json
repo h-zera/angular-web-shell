@@ -104,7 +104,11 @@
 							"src/styles.scss"
 						]
 					}
-				}
+				},
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {}
+        }
 			}
 		}
 	},

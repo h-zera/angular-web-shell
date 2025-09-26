@@ -26,6 +26,7 @@
       "@pipes/*": ["src/core/pipes/*"],
       "@shared/*": ["src/core/shared/*"],
       "@utils/*": ["src/core/utils/*"],
+      "@services/*": ["src/core/services/*"],
       "@data/*": ["src/data/*"],
       "@di/*": ["src/data/di/*"],
       "@models/*": ["src/domain/entities/*"],
