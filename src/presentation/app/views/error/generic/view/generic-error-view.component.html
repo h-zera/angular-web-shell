@@ -1,0 +1,7 @@
+<div class="flex justify-center items-center h-screen w-full flex-col">
+  <h1 class="text-4xl">{{'error.generic.title' | translate:{errorCode} }}</h1>
+  <p class="text-lg">{{errorMessage}}</p>
+  <button (click)="goBack()" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+    {{'error.generic.button' | translate}}
+  </button>
+</div>

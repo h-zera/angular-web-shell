@@ -1,0 +1,16 @@
+{
+  "landing-development": {
+    "title": "\uD83D\uDEA7 HZera está en desarrollo \uD83D\uDEA7",
+    "description": "Estamos trabajando en algo emocionante. Mientras tanto, puedes conocer más sobre mí y mis proyectos en mi portfolio.",
+    "button": "Ver mi portfolio"
+  },
+  "error": {
+    "generic": {
+      "title": "Error {{errorCode}}",
+      "button": "Volver al inicio"
+    },
+    "messages": {
+      "503": "Servicio no disponible. Por favor, inténtalo de nuevo más tarde."
+    }
+  }
+}
