@@ -1,0 +1,16 @@
+{
+  "landing-development": {
+    "title": "\uD83D\uDEA7 HZera is under development \uD83D\uDEA7",
+    "description": "We are working on something exciting. In the meantime, you can learn more about me and my projects in my portfolio.",
+    "button": "View my portfolio"
+  },
+  "error": {
+    "generic": {
+      "title": "Error {{errorCode}}",
+      "button": "Back to home"
+    },
+    "messages": {
+      "503": "Service unavailable. Please try again later."
+    }
+  }
+}
