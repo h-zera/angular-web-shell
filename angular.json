@@ -58,6 +58,7 @@
                 }
               ],
               "outputHashing": "all",
+              "optimization": true,
               "extractLicenses": false,
               "extraWebpackConfig": "webpack.prod.config.js"
 						},

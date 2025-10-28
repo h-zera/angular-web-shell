@@ -1,8 +1,7 @@
 import { Routes } from '@angular/router';
-import { loadRemoteModule } from '@angular-architects/module-federation';
 import {environment} from "@environments/environment";
 import {inject} from '@angular/core';
-import {MicroFrontsService} from '../../core/services/micro-fronts/micro-fronts.service';
+import {MicroFrontsService} from '@services/micro-fronts/micro-fronts.service';
 
 const microFronts = environment.microFronts;
 
