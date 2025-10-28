@@ -15,7 +15,7 @@ export class ValidateErrorCodeGuard implements CanMatch {
 
     canMatch(route: Route, segments: UrlSegment[]): MaybeAsync<GuardResult> {
       const isInternal = this.navigation.isInternalNavigation();
-      console.log('[ValidateErrorCodeGuard] ', {isInternal, route, segments});
+
       if (!isInternal) {
         this.navigation.navigateTo('error/not-found');
         return false;

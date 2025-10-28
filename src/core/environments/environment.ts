@@ -5,7 +5,7 @@ export const environment = {
     internalKey: 'x-internal-key-12345',
     microFronts: {
         portfolio: {
-            url: 'http://localhost:4300/remoteEntry.js',
+            url: 'http://localhost:4201/remoteEntry.js',
             exposedModule: './Portfolio',
             component: 'PORTFOLIO_ROUTES'
         }
