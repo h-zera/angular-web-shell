@@ -32,7 +32,7 @@ jobs:
         with:
           images: ghcr.io/${{ github.repository_owner }}/main-web-shell
           tags: |
-            type=raw,value=latest,enable={{is_default_branch}}
+            type=raw,value=latest,enable=${{ is_default_branch }}
             type=ref,event=tag
 
       - name: 4. Configure Docker Buildx
