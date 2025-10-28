@@ -32,7 +32,9 @@ jobs:
         with:
           images: ghcr.io/${{ github.repository_owner }}/main-web-shell
           tags: |
-            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', github.event.repository.default_branch) }}
+            # set latest tag for master branch
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'main') }}
+            # set semver tags for git tags
             type=ref,event=tag
 
       - name: 4. Configure Docker Buildx
